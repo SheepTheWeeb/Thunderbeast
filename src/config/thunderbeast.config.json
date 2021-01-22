@@ -1,0 +1,12 @@
+{
+  "config": {
+    "api": {
+      "endpoints": {
+        "foaas": "https://www.foaas.com/"
+      }
+    },
+    "gifs": {
+      "ok": "https://media1.tenor.com/images/1417bce68e499228e79867d802e667c3/tenor.gif"
+    }
+  }
+}
