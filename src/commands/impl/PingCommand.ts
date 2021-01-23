@@ -1,6 +1,5 @@
 import Discord from 'discord.js';
 import BotCommand from '../BotCommand';
-import { emojiLookup } from '../../index';
 
 export default class PingCommand implements BotCommand {
   name: string;
@@ -21,7 +20,7 @@ export default class PingCommand implements BotCommand {
   execute(msg: Discord.Message, args: string[]): boolean {
     if (!this.enabled) return false;
     msg.reply('Pong!');
-    msg.react(emojiLookup.get('au'));
+    msg.react('🏓');
     return true;
   }
 }
